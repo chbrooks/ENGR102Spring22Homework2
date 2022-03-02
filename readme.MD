@@ -18,7 +18,6 @@ The file movieReviews.txt contains 8529 reviews scraped from RottenTomatoes. Eac
 
 We're going to use a simple averaging strategy here to predict a review's score based on the word in it.
 To do this, we'll start with a set of labeled reviews. For each review, we'll do the following:
-get all of the words in the review.
 
 
 #### Step 1 - process a review.
