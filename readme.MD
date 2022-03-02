@@ -58,11 +58,11 @@ Suppose our next review was [4, ['This','movie','rules']]
 
 After we add it to wordScore, wordScore should be:
 <pre>
-{'This' : [7, 2], 'quiet' : [2,3], 'movie': [5,1], 'rules' : [5,1]}
+{'This' : [7, 2], 'quiet' : [2,3], 'movie': [4,1], 'rules' : [4,1]}
 </pre>
 
 Note that 'This' was already present, so we added the score for this review to its total (going from 3 to 7) and incremented the number of appearances.
-'movie' and 'rules' were not yet in our dictionary, so we added them, along with the score for this review and a count of 1.
+'movie' and 'rules' were not yet in our dictionary, so we added them, along with the score for this review (4) and a count of 1.
 
 #### Step 4: Process all the reviews.
 
